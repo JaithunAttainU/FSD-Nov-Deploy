@@ -2,10 +2,6 @@
   "name": "day-7",
   "version": "0.1.0",
   "private": true,
-  "options": {
-    "allowedHosts": ["sample-deploy-w7gv.onrender.com"],
-    "proxy": "https://sample-deploy-w7gv.onrender.com"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
