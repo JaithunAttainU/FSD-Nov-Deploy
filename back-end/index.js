@@ -9,8 +9,14 @@ const PORT = process.env.PORT || 8000
 // }))
 
 app.use(cors())
+
+app.use(express.static('../front-end/build'))
 app.get('/api/products', (req, res) => {
   res.send(products)
+})
+
+app.get('*', (req, res) => {
+  res.sendFile('../front-end/build/index.html')
 })
 
 app.listen(PORT, () => {

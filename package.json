@@ -1,0 +1,20 @@
+{
+  "name": "@paypalcorp/fsd-nov-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd front-end && npm i && npm run build && cd .. && cd back-end && npm i && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaithunAttainU/FSD-Nov-Deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaithunAttainU/FSD-Nov-Deploy/issues"
+  },
+  "homepage": "https://github.com/JaithunAttainU/FSD-Nov-Deploy#readme"
+}

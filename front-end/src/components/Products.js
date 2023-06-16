@@ -4,7 +4,7 @@ function Products() {
   const [products, setProducts] = useState([])
 
   const getAllProducts = async () => {
-    const response = await fetch('https://sample-deploy-w7gv.onrender.com/api/products')
+    const response = await fetch('/api/products')
     const productsData = await response.json()
     setProducts(productsData)
   }
